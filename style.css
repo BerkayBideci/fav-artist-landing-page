@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;600;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.logo {
+    height: 6em;
+}
+
+#bg-hero {
+    background-image: url("./Snoop.png");
+}
+
+#header-p {
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+
+audio::-webkit-media-controls-panel {
+    border: none;
+    background-color: #b2ebf2;
+}
+
+li:nth-child(even) {
+    color: white;
+}
+
+section div input::placeholder {
+    color: black
+}
+
+@layer base {
+
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+}
